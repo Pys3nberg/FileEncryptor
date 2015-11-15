@@ -1,0 +1,29 @@
+Yo, 
+
+I’ve put together a few images to help you understand a little better how we intend on using the software. Essentially, all we need the software be able to do is burn a watermark, print number and unique barcode into images for us which we can then distribute. Where it gets a little more complicated is the security procedures we need to adhere to. 
+
+The Image Requirements
+
+Watermark – The watermark will always be the same, the only thing that will need to change is the persons name and the date at the bottom. The image size and dimensions will also vary.
+Print No – The print number goes in the top left and  will just go up sequentially, however, we do prints across departments with each print list needing to start from 001 again. 
+Return - ‘Please Return To Kyle Wetton’ This will remain the same on all prints.
+Barcode – Currently, we are using stickers for the barcode. We would like it to be burn into the watermark somewhere. A 5-7 number barcode would be ideal. 
+
+The Database Requirements
+
+Column A – Print No, easy peasy lemon squeezey 
+B - The print name will just be whatever the filename is (this will need to be not the print too) 
+C – If the programme can prompt you for a reason for the prints, that would be cool – otherwise we can fill this in manually.
+D – Again, a prompt would be ideal. An ‘apply to all’ function would be great too. 
+E – Looking at it again, we could probably lose this and change the title of column D
+F – Whoevers name is on the watermark
+G – The login ID of the person making the watermarks
+H – We can fill this in manually. 
+I – The date of the prints. 
+J – If possible, the path of where the original images are sourced. 
+K – Same as on image. 
+L – 0 – You can ignore these. We will fill them in manually if needed. 
+
+Essentially, the database is for us to track what prints we have distributed at any given time in case of a leak. The watermarking is the main issue for us at the minute, but as much of the database we can automate, the more time it will save us. The login would be a great feature. We just need to figure out a smart way to configure it. 
+
+Let me know if I’m not making sense. 
