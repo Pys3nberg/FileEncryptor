@@ -78,4 +78,4 @@ def decrypt_file(key, file):
 if __name__ == '__main__':
 
     encrypt_file('hello', 'spec.txt')
-    decrypt_file('hello','encrypted\\spec.txt.enc')
+    decrypt_file('hello', os.path.join('encrypted','spec.txt.enc'))
